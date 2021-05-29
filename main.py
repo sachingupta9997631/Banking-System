@@ -4,13 +4,9 @@ import pyrebase
 
 ##############################variables declared#########################
 firebaseConfig = {
-    "apiKey": "AIzaSyDAwovZhuooQDzFJj6fJy4rbOjw38PoZ5A",
-    "authDomain": "test-project-ae3e2.firebaseapp.com",
-    "databaseURL": "https://test-project-ae3e2-default-rtdb.firebaseio.com",
-    "projectId": "test-project-ae3e2",
-    "storageBucket": "test-project-ae3e2.appspot.com",
-    "messagingSenderId": "483863023492",
-    "appId": "1:483863023492:web:87132bafb554750a8157d1"
+    '''
+    Firebase configuration of your project
+    '''
 }
 
 firebase = pyrebase.initialize_app(firebaseConfig)
